@@ -2105,11 +2105,21 @@ input, select, textarea {
 		color: gray; /* Adjust color if needed */
 		margin-left: 10px; /* Space between book title and author */
 	}
-	.book-name{
-		background-color: #ed4933;
+
+	/* my style */
+	.book-name,
+	.mentor-name{
     	padding-right: .5em;
     	padding-left: .5em;
 	}
+	.book-name{
+		background-color: #ed4933;
+	}
+	.mentor-name{
+		background-color: #3D3F6F;
+	}
+	/* till here */
+
 	.author-name-by{
 		color:rgba(255, 255, 255, 0.3);
 	}
